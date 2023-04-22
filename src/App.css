@@ -26,11 +26,20 @@
 .menu-items li a{
   padding: 1em;
   text-decoration: none;
-
-  font-family: 'Red Rose';
+  font-family: 'Red Rose', cursive;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 25px;
   color: #434343;
+}
+
+.wallet-button{
+  border:none;
+  color: #fff;
+  padding: 1em 3em;
+  font-size: 0.9em;
+  font-family: 'Red Rose', cursive;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  border-radius: 10px;
 }
