@@ -4,20 +4,20 @@
   padding: 2em;
 }
 
-.header-container{
+/*.header-container{
   display:flex;
   justify-content: space-between;
-}
+}*/
 
 .logo{
   align-self: center;
 }
 
-.menu-items{
+/*.menu-items{
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+}*/
 
 .menu-items li{
   list-style-type: none;
@@ -42,4 +42,19 @@
   font-family: 'Red Rose', cursive;
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
   border-radius: 10px;
+}
+
+
+/*FIX THIS*/
+@media screen and (min-width: 768px) {
+  .header-container{
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .menu-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
