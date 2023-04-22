@@ -1,5 +1,36 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2em;
+}
+
+.header-container{
+  display:flex;
+  justify-content: space-between;
+}
+
+.logo{
+  align-self: center;
+}
+
+.menu-items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-items li{
+  list-style-type: none;
+}
+
+.menu-items li a{
+  padding: 1em;
+  text-decoration: none;
+
+  font-family: 'Red Rose';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #434343;
 }
