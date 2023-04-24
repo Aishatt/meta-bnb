@@ -146,7 +146,7 @@ color: #B8B8B8;
   justify-content: space-between;
   padding: 0.8em;
   width:280px;
-  height:350px ;
+  height:350px;
 }
 
 .card-image{
@@ -178,7 +178,7 @@ color: #B8B8B8;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:30px;
+  gap:20px;
   flex-wrap: wrap;
 }
 
@@ -222,5 +222,9 @@ color: #B8B8B8;
   .home-image{
     width: 40%;
     padding: 0 0 0 2em;
+  }
+
+  .card{
+    flex: 1 0 21%
   }
 }
