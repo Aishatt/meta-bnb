@@ -9,6 +9,14 @@ export default function Home() {
                 <p className="home-text">
                     We provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone
                 </p>
+                {/*MAKE FORM FUNCTIONAL*/}
+                <div className='search-container'>
+                    <form>
+                        <input type="text" placeholder="Search for location" name="search" />
+                        <button type="submit" className='submit-button'>Search</button>
+                    </form>
+                </div>
+                
             </div>
             <div className='home-image'>
                 <img src={landing_img} alt="" />

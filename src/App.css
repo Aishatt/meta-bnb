@@ -8,7 +8,7 @@
 /*HEADER*/
 
 .header-container, .landing-container{
-  padding: 0 2em;
+  padding: 0 3em;
 }
 /*.header-container{
   display:flex;
@@ -62,7 +62,7 @@
 }
 
 .home-text{
-  font-family: 'Red Rose';
+  font-family: 'Red Rose', cursive;
   font-style: normal;
   font-weight: 400;
   font-size: 1.5em;
@@ -85,6 +85,34 @@
   margin: 4em 0 0 0;
 }
 
+.search-container form{
+  display: flex;
+}
+
+input[type=text]{
+  font-family: 'Red Rose', cursive;
+  padding:1em;
+  border:1px solid #A3A3A3;
+  border-radius: 8px 0px 0px 8px;
+  background: rgba(247, 247, 247, 0.1);
+  width: 60%;
+
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+color: #B8B8B8;
+}
+
+.submit-button{
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
+  border-radius: 0px 8px 8px 0px;
+  font-family: 'Red Rose', cursive;
+  color: #fff;
+  padding:2em;
+  border: none;
+  width: 40%;
+}
+
 
 /*BREAKER*/
 
@@ -93,12 +121,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em;
+  padding: 1.5em 3em;
   margin: 4em 0;
 }
 
 .breaker-container img{
   height: 30px;
+}
+
+.inspiration-title{
+  font-weight: 700;
+  font-size: 1.7em;
+  line-height: 60px;
+  text-align: center;
 }
 
 
