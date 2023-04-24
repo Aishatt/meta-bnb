@@ -9,6 +9,7 @@
   justify-content: space-between;
 }*/
 
+/*HEADER*/
 .logo{
   align-self: center;
 }
@@ -26,7 +27,6 @@
 .menu-items li a{
   padding: 1em;
   text-decoration: none;
-  font-family: 'Red Rose', cursive;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -45,6 +45,41 @@
 }
 
 
+
+/*HOME*/
+.text-header{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #434343;
+}
+
+.home-text{
+  font-family: 'Red Rose';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #434343;
+}
+
+.bold-text{
+  font-size: 56px;
+  line-height: 140%;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.home-image{
+  margin: 4em 0 0 0;
+}
+
 /*FIX THIS*/
 @media screen and (min-width: 768px) {
   .header-container{
@@ -56,5 +91,23 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .landing-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .text{
+    width:60%;
+    padding: 0 2em 0 0;
+  }
+
+  .home-image{
+    width: 40%;
+    padding: 0 0 0 2em;
   }
 }

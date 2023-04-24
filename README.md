@@ -12,6 +12,7 @@ These technologies were used:
 5. JavaScript
 6. React
 7. Markdown
+8. Bootstrap
 
 ## React/CSS concepts used
 The following were used to create this project:
