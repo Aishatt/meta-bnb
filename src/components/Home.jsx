@@ -7,7 +7,7 @@ export default function Home() {
                     Rent a <span className="bold-text">Place</span> away from <span className="bold-text">Home</span> in the <span className="bold-text">Metaverse</span>
                 </p>
                 <p className="home-text">
-                    we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone
+                    We provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone
                 </p>
             </div>
             <div className='home-image'>

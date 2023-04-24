@@ -29,8 +29,8 @@
   text-decoration: none;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 1.2em;
+  line-height: 1.3em;
   color: #434343;
 }
 
@@ -50,7 +50,7 @@
 .text-header{
   font-style: normal;
   font-weight: 400;
-  font-size: 56px;
+  font-size: 3.5em;
   line-height: 140%;
   letter-spacing: -0.02em;
   color: #434343;
@@ -60,7 +60,7 @@
   font-family: 'Red Rose';
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 35px;
   color: #434343;
 }
