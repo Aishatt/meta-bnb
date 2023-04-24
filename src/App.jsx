@@ -4,6 +4,7 @@ import Home from './components/Home'
 import Breaker from './components/Breaker'
 import data from './InspirationData'
 import Card from './components/Card'
+import LearnMore from './components/LearnMore'
 
 function App() {
 
@@ -28,7 +29,7 @@ function App() {
       <div className='cards-container'>
         {cardData}
       </div>
-      
+      <LearnMore />
     </>
   )
 }
