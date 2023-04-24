@@ -25,7 +25,10 @@ function App() {
       <Header />
       <Home />
       <Breaker />
-      {cardData}
+      <div className='cards-container'>
+        {cardData}
+      </div>
+      
     </>
   )
 }

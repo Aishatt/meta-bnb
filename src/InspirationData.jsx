@@ -68,7 +68,7 @@ export default [
         cost: "1MBT per night",
         distance: "2345km away",
         availability: "available for 2weeks stay",
-        image: "../images/Frame8.png",
+        img: "../images/Frame8.png",
         stars: ""
     }
     
