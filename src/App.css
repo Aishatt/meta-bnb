@@ -1,15 +1,20 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2em;
+  padding: 2em 0;
 }
 
+
+/*HEADER*/
+
+.header-container, .landing-container{
+  padding: 0 2em;
+}
 /*.header-container{
   display:flex;
   justify-content: space-between;
 }*/
 
-/*HEADER*/
 .logo{
   align-self: center;
 }
@@ -80,6 +85,33 @@
   margin: 4em 0 0 0;
 }
 
+
+/*BREAKER*/
+
+.breaker-container{
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  margin: 4em 0;
+}
+
+.breaker-container img{
+  height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*FIX THIS*/
 @media screen and (min-width: 768px) {
   .header-container{
@@ -93,6 +125,7 @@
     align-items: center;
   }
 }
+
 
 @media screen and (min-width: 1024px) {
   .landing-container{
