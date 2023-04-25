@@ -222,6 +222,34 @@ input[type=text]{
   width: 90%;
 }
 
+/*FOOTER*/
+
+.footer-container{
+  background-color:#1D1D1E ;
+  color: #fff;
+  padding: 5em 3em;
+}
+
+.footer-logo{
+  margin: 0 0 2em 0;
+}
+
+.social-media img{
+  margin-right: 2em;
+  height: 30px;
+}
+
+.footer-container ul li{
+  list-style-type: none;
+}
+
+.list-header{
+  font-weight: 700;
+  font-size: 1.2em;
+  line-height: 22px;
+  margin-bottom: 0.5em;
+}
+
 
 
 /*FIX THIS*/
@@ -258,5 +286,10 @@ input[type=text]{
 
   .card{
     flex: 1 0 21%
+  }
+
+  .footer-container{
+    display: flex;
+    justify-content: space-between;
   }
 }
