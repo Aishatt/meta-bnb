@@ -5,6 +5,7 @@ import Breaker from './components/Breaker'
 import data from './InspirationData'
 import Card from './components/Card'
 import LearnMore from './components/LearnMore'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
         {cardData}
       </div>
       <LearnMore />
+      <Footer />
     </>
   )
 }

@@ -185,7 +185,7 @@ input[type=text]{
 /*LEARN MORE*/
 
 .more-container{
-  margin: 8em 0;
+  margin: 8em 0 0;
   padding: 5em 3em;
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
   color:#fff;
