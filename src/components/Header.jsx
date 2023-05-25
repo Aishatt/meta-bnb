@@ -1,25 +1,26 @@
 import logo from '/src/assets/logo.png'
+import { NavLink } from 'react-router-dom';
 
 export default function Header() {
     return(
-        <div className='header-container'>
+        <nav className='header-container'>
             <img src={logo} className='logo' alt='meta bnb logo' height="30px" />
             <ul className='menu-items'>
                 <li>
-                    <a href="">Home</a>
+                    <NavLink to="/">Home</NavLink>
                 </li>
                 <li>
-                    <a href="">Place to stay</a>
+                    <NavLink to="/products">Place to stay</NavLink>
                 </li>
                 <li>
-                    <a href="">NFTs</a>
+                    <NavLink to="/learnmore">NFTs</NavLink>
                 </li>
                 <li>
-                    <a href="">Community</a>
+                    <NavLink to="/footer">Footer</NavLink>
                 </li>
             </ul>
             <button className='wallet-button'>Connect wallet</button>
             {/*POP-UP!*/}
-        </div>
+        </nav>
     )
 }
