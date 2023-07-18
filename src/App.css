@@ -121,8 +121,8 @@ input[type=text]{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5em 3em;
-  margin: 4em 0;
+  padding: 1em 3em;
+  margin: 2em 0;
 }
 
 .breaker-container img{
@@ -179,13 +179,14 @@ input[type=text]{
   align-items: center;
   gap:20px;
   flex-wrap: wrap;
+  margin: 4em 0;
 }
 
 
 /*LEARN MORE*/
 
 .more-container{
-  margin: 8em 0 0;
+  margin: 3em 0 0;
   padding: 5em 3em;
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
   color:#fff;

@@ -1,4 +1,5 @@
 import landing_img from '/src/assets/home.png'
+
 export default function Home() {
     return(
         <div className='landing-container'>
@@ -20,7 +21,7 @@ export default function Home() {
             </div>
             <div className='home-image'>
                 <img src={landing_img} alt="" />
-            </div>
+            </div> 
         </div>
     )
 }
